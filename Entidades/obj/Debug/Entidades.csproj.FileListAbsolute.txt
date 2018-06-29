@@ -1,0 +1,5 @@
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\Entidades\bin\Debug\Entidades.dll
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\Entidades\bin\Debug\Entidades.pdb
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\Entidades\obj\Debug\Entidades.dll
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\Entidades\obj\Debug\Entidades.pdb

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{24FE95FB-1E0A-47CA-905A-CDA1DA4CB406}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MaritoFormsPractice</RootNamespace>
+    <AssemblyName>MaritoFormsPractice</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormBorrarSoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBorrarSoc.Designer.cs">
+      <DependentUpon>FormBorrarSoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscarFec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarFec.Designer.cs">
+      <DependentUpon>FormBuscarFec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDevLib.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDevLib.Designer.cs">
+      <DependentUpon>FormDevLib.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNuevoSoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNuevoSoc.Designer.cs">
+      <DependentUpon>FormNuevoSoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrestLib.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrestLib.Designer.cs">
+      <DependentUpon>FormPrestLib.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVerLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVerLista.Designer.cs">
+      <DependentUpon>FormVerLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuBiblioteca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuBiblioteca.Designer.cs">
+      <DependentUpon>MenuBiblioteca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBorrarSoc.resx">
+      <DependentUpon>FormBorrarSoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarFec.resx">
+      <DependentUpon>FormBuscarFec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDevLib.resx">
+      <DependentUpon>FormDevLib.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNuevoSoc.resx">
+      <DependentUpon>FormNuevoSoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrestLib.resx">
+      <DependentUpon>FormPrestLib.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVerLista.resx">
+      <DependentUpon>FormVerLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuBiblioteca.resx">
+      <DependentUpon>MenuBiblioteca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{38a44cb6-8641-4a2e-bb60-3b00ae318358}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

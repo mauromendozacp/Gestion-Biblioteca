@@ -1,0 +1,17 @@
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.csprojResolveAssemblyReference.cache
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.MenuBiblioteca.resources
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.Properties.Resources.resources
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.csproj.GenerateResource.Cache
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\bin\Debug\MaritoFormsPractice.exe.config
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\bin\Debug\MaritoFormsPractice.exe
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\bin\Debug\MaritoFormsPractice.pdb
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.exe
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.pdb
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\bin\Debug\Entidades.dll
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\bin\Debug\Entidades.pdb
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.FormNuevoSoc.resources
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.FormBorrarSoc.resources
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.FormVerLista.resources
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.FormPrestLib.resources
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.FormDevLib.resources
+G:\Guias de marito\6CP1\Forms\Guia 2\Gestion Biblioteca\MaritoFormsPractice\obj\Debug\MaritoFormsPractice.FormBuscarFec.resources
